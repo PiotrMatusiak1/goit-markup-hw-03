@@ -11,6 +11,11 @@ body {
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .white {
   width: 100%;
   background: var(--colorWhite);
@@ -25,8 +30,9 @@ body {
 .box-header {
   display: flex;
   align-items: center;
-  background: #ffffff;
+  background: var(--colorWhite);
   margin: 0 auto;
+  height: 80px;
 }
 
 header {
@@ -53,7 +59,7 @@ footer {
 .contact-list {
   display: flex;
   gap: 46px;
-  padding-left: 371px;
+  margin-left: auto;
 }
 
 .main-section {
@@ -277,6 +283,7 @@ footer {
 .team > li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: var(--colorWhite);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -340,7 +347,8 @@ address {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 8px;
+  padding-bottom: 45px;
 }
 
 .list-product {
@@ -354,13 +362,6 @@ address {
   padding: 94px 0;
   display: flex;
   background: var(--colorWhite);
-}
-
-.section-button {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
 }
 
 .list-product {
