@@ -79,7 +79,6 @@ footer {
   display: flex;
   justify-content: flex-start;
   gap: 30px;
-  padding-left: 0;
 }
 
 .logo-recolor {
@@ -252,7 +251,6 @@ footer {
 .list-doing {
   display: flex;
   gap: 30px;
-  padding-left: 0;
 }
 
 .person-name {
@@ -276,8 +274,7 @@ footer {
 
 .list-person {
   display: flex;
-  gap: 15px;
-  padding-left: 0px;
+  gap: 30px;
 }
 
 .team > li {
